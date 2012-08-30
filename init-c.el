@@ -1,6 +1,11 @@
+(add-to-list 'load-path "~/.emacs.d/cc-mode")
+(require 'cc-mode)
 ;c mode
 (setq-default c-basic-offset 4)
 (setq c-default-style "linux" c-basic-offset 4)
+(c-set-offset 'inline-open 0)
+(c-set-offset 'friend '-)
+(c-set-offset 'substatement-open 0)
 
 ;gdb
 (add-hook 'gdb-mode-hook '(lambda ()
