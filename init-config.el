@@ -19,7 +19,7 @@
 ;隐藏工具栏
 (tool-bar-mode -1)
 ;(menu-bar-mode nil)
-(setq indent-tabs-mode nil)
+(setq-default indent-tabs-mode nil)
 (setq-default tab-width 4)
 (setq frame-title-format
             '("emacs@ " (buffer-file-name "%f "
