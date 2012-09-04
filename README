@@ -2,5 +2,5 @@
 1.把.emacs文件复制到～
 
 ~/.bashrc
-alias evi='/usr/local/emacs-24.2/bin/emacs -Q -nw'
-alias emacs='/usr/local/emacs-24.2/bin/emacs'
+alias evi='/usr/local/emacs-xx.x/bin/emacs -Q -nw'
+alias emacs='/usr/local/emacs-xx.x/bin/emacs'
