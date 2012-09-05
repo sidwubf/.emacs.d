@@ -5,6 +5,7 @@
 (load-library "init-shortcut")
 
 ;常用配置
+(load-library "init-whitespace")
 (load-library "init-config")
 
 (load-library "init-php")
@@ -23,3 +24,6 @@
 ;补全
 (load-library "init-auto-complete")
 (load-library "init-gccsense")
+
+;cedet
+(load-library "init-cedet")
