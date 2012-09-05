@@ -4,3 +4,7 @@
 ~/.bashrc
 alias evi='/usr/local/emacs-xx.x/bin/emacs -Q -nw'
 alias emacs='/usr/local/emacs-xx.x/bin/emacs'
+
+ubuntu install emacs
+sudo apt-get install build-essential
+sudo apt-get install libncurses5-dev libgtk2.0-dev libxpm-dev libgif-dev libtiff-dev librsvg2-dev libdbus-1-dev libgconf2-dev
