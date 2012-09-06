@@ -27,3 +27,4 @@
 
 ;cedet
 (load-library "init-cedet")
+;(load-library "init-ecb")

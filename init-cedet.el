@@ -1,10 +1,12 @@
 (load-file "~/.emacs.d/cedet/common/cedet.el")
-(require 'cedet)
+
+(global-ede-mode 1)
+
+(semantic-load-enable-excessive-code-helpers)
+
 (require 'semantic-ia)
 (require 'semantic-gcc)
- 
-(global-ede-mode 1)
- 
+
 (defun my-semantic-hook ()
   (imenu-add-to-menubar "TAGS"))
 (add-hook 'semantic-init-hooks 'my-semantic-hook)
@@ -17,13 +19,8 @@
   (semanticdb-enable-gnu-global-databases 'c-mode)
   (semanticdb-enable-gnu-global-databases 'c++-mode))
 
-(global-srecode-minor-mode 1)
-
-(semantic-load-enable-minimum-features)
-(semantic-load-enable-code-helpers)
-(semantic-load-enable-guady-code-helpers)
-(semantic-load-enable-excessive-code-helpers)
-(semantic-load-enable-semantic-debugging-helpers)
+(when (cedet-ectag-version-check)
+  (semantic-load-enable-primary-exuberent-ctags-support))
 
 (defun my-cedet-hook ()
   (local-set-key [(control return)] 'semantic-ia-complete-symbol)
@@ -36,3 +33,15 @@
  (local-set-key "." 'semantic-complete-self-insert)
  (local-set-key ">" 'semantic-complete-self-insert))
 (add-hook 'c-mode-common-hook 'my-c-mode-cedet-hook)
+
+;(ede-cpp-root-project "Test"
+;                :name "Test Project"
+;                :file "~/work/project/CMakeLists.txt"
+;                :include-path '("/"
+;                                "/Common"
+;                                "/Interfaces"
+;                                "/Libs"
+;                               )
+;                :system-include-path '("~/exp/include")
+;                :spp-table '(("isUnix" . "")
+;                             ("BOOST_TEST_DYN_LINK" . "")))
