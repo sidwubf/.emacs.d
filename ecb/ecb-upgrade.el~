@@ -1174,18 +1174,18 @@ Currently this is a check if the right `cedet-version is loaded."
                                            ecb-cedet-required-version-max))
           (version-error nil))
       ;; check if cedet-version is correct
-;      (when (or (not (boundp 'cedet-version))
-;                (ecb-package-version-list<
-;                 (ecb-package-version-str2list cedet-version)
-;                 ecb-cedet-required-version-min)
-;                (ecb-package-version-list<
-;                 ecb-cedet-required-version-max
-;                 (ecb-package-version-str2list cedet-version)))
-;        (setq version-error (concat "cedet ["
-;                                    cedet-required-version-str-min
-;                                    ", "
-;                                    cedet-required-version-str-max
-;                                    "]")))
+      (when (or (not (boundp 'cedet-version))
+                (ecb-package-version-list<
+                 (ecb-package-version-str2list cedet-version)
+                 ecb-cedet-required-version-min)
+                (ecb-package-version-list<
+                 ecb-cedet-required-version-max
+                 (ecb-package-version-str2list cedet-version)))
+        (setq version-error (concat "cedet ["
+                                    cedet-required-version-str-min
+                                    ", "
+                                    cedet-required-version-str-max
+                                    "]")))
       (if (null version-error)
           ;; this is the only place where this variable is set
           (setq ecb-all-requirements-available t)
