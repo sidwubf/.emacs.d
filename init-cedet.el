@@ -29,10 +29,10 @@
   (local-set-key "\C-cp" 'semantic-analyze-proto-impl-toggle))
 (add-hook 'c-mode-common-hook 'my-cedet-hook)
 
-(defun my-c-mode-cedet-hook ()
- (local-set-key "." 'semantic-complete-self-insert)
- (local-set-key ">" 'semantic-complete-self-insert))
-(add-hook 'c-mode-common-hook 'my-c-mode-cedet-hook)
+;(defun my-c-mode-cedet-hook ()
+; (local-set-key "." 'semantic-complete-self-insert)
+; (local-set-key ">" 'semantic-complete-self-insert))
+;(add-hook 'c-mode-common-hook 'my-c-mode-cedet-hook)
 
 ;(ede-cpp-root-project "Test"
 ;                :name "Test Project"
