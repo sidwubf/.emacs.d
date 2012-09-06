@@ -1,0 +1,31 @@
+#name : command pattern ... { ... }
+# --
+/**
+ * public interface command {
+ *	function execute();
+ * }
+ *
+ * class ExaCommand implements command{
+ *	var obj;
+ *	public function __construct(obj exa) {
+ *		this->obj = exa;
+ *	}
+ *	public function execute();
+ * }
+ * class RemoteControl {
+ *	command a;
+ *	public function __construct();
+ *	public function setCommand(command obj) {
+ *		this->a = obj;
+ *	}
+ *	public function press() {
+ *		this->a->execute();
+ *	}
+ * }
+ * test:
+ * $remote = new RemoteControl();
+ * $button_1 = new Button();
+ * $command_1 = new ExaCommand($button_1);
+ * $remote->setCommand($command_1);
+ * $remote->press();
+ */

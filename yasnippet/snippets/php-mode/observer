@@ -1,0 +1,13 @@
+#name : observer pattern ... { ... }
+# --
+/**
+ * class subject {
+ *	function attach(obj observer);
+ *	function detach(obj observer);
+ *	function notify();		
+ * }
+ * class observer {
+ *	function update();
+ * }
+ *
+ */

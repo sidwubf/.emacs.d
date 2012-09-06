@@ -1,0 +1,7 @@
+#name : class ... { ... }
+# --
+class $1 {
+	function __construct($2) {
+		$3	
+	}
+}

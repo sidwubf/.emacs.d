@@ -1,0 +1,3 @@
+#name : delete ... { ... }
+# --
+$sql = "DELETE $1 FROM $2WHERE $3LIMIT 1";

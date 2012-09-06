@@ -1,0 +1,7 @@
+#name : factory pattern ... { ... }
+# --
+class $1Factory {
+	public static function factory($2) {
+		$3	
+	}
+}

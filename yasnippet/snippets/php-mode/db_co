@@ -1,0 +1,6 @@
+#name : database_config_old ... { ... }
+# --
+$database_$1["host"] = '10.1.1.$2';
+$database_$1["user"] = 'root';
+$database_$1["pass"] = 'Adfj89cc/*-+';
+$database_$1["name"] = '$3';

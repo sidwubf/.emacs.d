@@ -1,0 +1,8 @@
+#name : database_config_new ... { ... }
+# --
+$database_$1['host'] = '10.1.1.$2';
+$database_$1['user'] = 'root';
+$database_$1['pass'] = 'Adfj89cc/*-+';
+$database_$1['name'] = '$3';
+$database_$1['port'] = '3306';
+$database_$1['char'] = 'gbk';

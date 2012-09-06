@@ -1,0 +1,9 @@
+#name : singleton pattern ... { ... }
+# --
+/**
+ * class MySingleton {
+ *	private function __construct();
+ *	public static function getInstance();
+ * }
+ *
+ */

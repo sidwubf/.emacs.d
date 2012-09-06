@@ -1,0 +1,4 @@
+#name : new_database_old ... { ... }
+# --
+$db_$1 = new database();
+$db_$1->connect($database_$1);

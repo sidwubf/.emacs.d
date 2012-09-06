@@ -1,0 +1,5 @@
+#name : var_dump (...) { ... }
+# --
+echo "<pre>";
+var_dump($1);
+exit;

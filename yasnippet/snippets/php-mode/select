@@ -1,0 +1,3 @@
+#name : select ... { ... }
+# --
+$sql = "SELECT $1 FROM $2WHERE $3";

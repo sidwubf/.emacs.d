@@ -1,0 +1,7 @@
+#name : function (...) { ... }
+# --
+if (!function_exists('$1') {
+	function $1($2) {
+    	$3
+	}
+}

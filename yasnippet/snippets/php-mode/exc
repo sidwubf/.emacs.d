@@ -1,0 +1,7 @@
+#name : exception ... { ... }
+# --
+try {
+	throw new Exception($0);
+} catch (Exception $e) {
+	$e->getMessage();
+}

@@ -1,0 +1,3 @@
+#name : iconv_utf8_to_gbk ... { ... }
+# --
+$1 = iconv('utf-8', 'gbk', $2);

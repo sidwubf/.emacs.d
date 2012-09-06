@@ -1,0 +1,19 @@
+#name : decorator pattern ... { ... }
+# --
+/**
+ * absract class decorator {
+ *	function a();
+ *	function b();		
+ * }
+ * class ADecorator extends decorator {
+ *	function __construct(obj decorator);
+ *	function a();//加上自己的特征
+ *	function b();//加上自己的特征
+ * }
+ * class BDecorator extends decorator {
+ *	function __construct(obj decorator);
+ *	function a();//加上自己的特征
+ *	function b();//加上自己的特征
+ * }
+ *
+ */

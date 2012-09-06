@@ -1,0 +1,3 @@
+#name : mysql_query_param (...) { ... }
+# --
+$1->query($sql, 'param', '$2');
