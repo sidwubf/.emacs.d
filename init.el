@@ -5,7 +5,7 @@
 (load-library "init-shortcut")
 
 ;常用配置
-(load-library "init-whitespace")
+;(load-library "init-whitespace")
 (load-library "init-config")
 
 (load-library "init-php")
