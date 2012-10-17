@@ -10,3 +10,11 @@ sudo apt-get install build-essential
 sudo apt-get install libncurses5-dev libgtk2.0-dev libxpm-dev libgif-dev libtiff-dev librsvg2-dev libdbus-1-dev libgconf2-dev
 sudo apt-get install clang exuberant-ctags
 sudo apt-get install texinfo
+
+note:
+1.列模式
+C-x r k 剪切一个矩形块
+C-x r y 粘贴一个矩形块
+C-x r o 插入一个矩形块
+C-x r c 清除一个矩形块(使其变成空白)
+C-x r t 在选定区域的所有列前插入样的字符
