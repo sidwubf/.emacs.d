@@ -18,3 +18,10 @@ C-x r y 粘贴一个矩形块
 C-x r o 插入一个矩形块
 C-x r c 清除一个矩形块(使其变成空白)
 C-x r t 在选定区域的所有列前插入样的字符
+
+2.tag操作
+生成TAGS find . -name "*.php" -print | etags -L -
+M-. 跳到对应定义处
+M-* 跳回刚才位置
+C-u M-. 跳到下一对应定义处
+M-TAB 补齐函数名
