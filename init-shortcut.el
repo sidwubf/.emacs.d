@@ -21,3 +21,6 @@
 
 (global-set-key (kbd "C-x c") 'clipboard-kill-ring-save)
 (global-set-key (kbd "C-c o") 'occur)
+
+;查单词
+(global-set-key (kbd "C-c C-d") 'kid-star-dict)

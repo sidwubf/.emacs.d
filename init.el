@@ -26,7 +26,9 @@
 (load-library "init-gccsense")
 
 ;cedet
-(load-library "init-cedet")
-(load-library "init-ecb")
+;(load-library "init-cedet")
+;(load-library "init-ecb")
 
 ;(load-library "init-yasnippet")
+
+(load-library "init-sdcv")
