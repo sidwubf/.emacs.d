@@ -9,6 +9,7 @@
 (load-library "init-config")
 
 (load-library "init-php")
+(load-library "init-python")
 (load-library "init-javascript")
 (load-library "init-css")
 (load-library "init-c")

@@ -1,0 +1,7 @@
+(add-to-list 'load-path "~/.emacs.d/emacs-for-python/")
+(require 'epy-setup)
+(require 'epy-python)
+(require 'epy-completion)
+(require 'epy-editing)
+(require 'epy-bindings)
+(require 'epy-nose)
