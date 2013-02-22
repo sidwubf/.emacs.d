@@ -24,7 +24,7 @@
 (setq frame-title-format
             '("emacs@ " (buffer-file-name "%f "
                 (dired-directory dired-directory "%b"))))
-(setq default-frame-alist '((height . 45) (width . 120)))
+(setq default-frame-alist '((height . 45) (width . 125)))
 (prefer-coding-system 'utf-8)
 (set-default-coding-systems 'utf-8)
 (global-linum-mode t)
@@ -41,4 +41,4 @@
 (setq display-time-day-and-date t)
 (display-time)
 
-(desktop-save-mode 1)
+;(desktop-save-mode 1)
