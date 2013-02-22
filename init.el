@@ -39,3 +39,5 @@
 ;(load-library "init-helm")
 
 ;(load-library "init-elnode")
+
+(load-library "init-calfw")

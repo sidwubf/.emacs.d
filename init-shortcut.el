@@ -17,7 +17,7 @@
 (global-set-key (kbd "<C-tab>") 'tabbar-forward)
 (global-set-key (kbd "<backtab>") 'tabbar-backward)
 ;日历
-(global-set-key (kbd "C-x a") 'calendar)
+(global-set-key (kbd "C-x a") 'cfw:open-calendar-buffer)
 
 (global-set-key (kbd "C-x c") 'clipboard-kill-ring-save)
 (global-set-key (kbd "C-c o") 'occur)
