@@ -30,8 +30,10 @@
 ;(load-library "init-cedet")
 ;(load-library "init-ecb")
 
-;(load-library "init-yasnippet")
+(load-library "init-yasnippet")
 
 (load-library "init-sdcv")
 
 (load-library "init-magit")
+
+(load-library "init-helm")
