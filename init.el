@@ -30,7 +30,7 @@
 ;(load-library "init-cedet")
 ;(load-library "init-ecb")
 
-(load-library "init-yasnippet")
+;(load-library "init-yasnippet")
 
 (load-library "init-sdcv")
 
@@ -41,3 +41,11 @@
 ;(load-library "init-elnode")
 
 (load-library "init-calfw")
+
+(load-library "init-mew")
+
+(load-library "init-w3m")
+
+(load-library "init-weibo")
+
+(load-library "init-doc")
