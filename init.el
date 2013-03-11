@@ -49,3 +49,7 @@
 (load-library "init-weibo")
 
 (load-library "init-doc")
+
+;(load-library "init-qq")
+
+(load-library "init-etags")

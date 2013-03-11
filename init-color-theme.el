@@ -2,5 +2,5 @@
 (require 'color-theme)
 (color-theme-initialize)
 ;(color-theme-select)
-(color-theme-dark-blue2)
-
+;(color-theme-dark-blue2)
+(color-theme-classic)
