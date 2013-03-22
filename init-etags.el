@@ -1,1 +1,1 @@
-(setq tags-file-name "~/tmp/tags")
+;(setq tags-file-name "~/tmp/tags")

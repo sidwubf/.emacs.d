@@ -11,6 +11,7 @@
 (load-library "init-php")
 ;(load-library "init-python")
 (load-library "init-javascript")
+(load-library "init-espresso")
 (load-library "init-css")
 (load-library "init-c")
 (load-library "init-markdown")
