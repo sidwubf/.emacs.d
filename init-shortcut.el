@@ -1,3 +1,4 @@
+(global-set-key (kbd "<f3>") 'man)
 ;mo更新.emacs
 (global-set-key (kbd "<f5>") 'eval-buffer)
 ;区域反注释
