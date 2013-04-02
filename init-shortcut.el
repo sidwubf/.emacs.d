@@ -1,8 +1,8 @@
-(global-set-key (kbd "<f3>") 'man)
 ;mo更新.emacs
 (global-set-key (kbd "<f5>") 'eval-buffer)
+(global-set-key (kbd "<f6>") 'man)
 ;区域反注释
-(global-set-key (kbd "<f6>") 'uncomment-region)
+;(global-set-key (kbd "<f6>") 'uncomment-region)
 ;目录替换
 (global-set-key (kbd "<f8>") 'dired)
 ;标记
