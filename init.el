@@ -54,3 +54,5 @@
 ;(load-library "init-qq")
 
 (load-library "init-etags")
+
+(load-library "init-youdao")
