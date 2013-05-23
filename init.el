@@ -56,3 +56,5 @@
 (load-library "init-etags")
 
 (load-library "init-youdao")
+
+(load-library "init-skype")
