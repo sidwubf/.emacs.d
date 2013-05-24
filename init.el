@@ -58,3 +58,5 @@
 (load-library "init-youdao")
 
 (load-library "init-skype")
+
+(load-library "init-douban")
