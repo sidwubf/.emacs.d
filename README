@@ -1,6 +1,6 @@
 这个是我的emacs配置
 
-安装步骤（限linux环境，windows盖不负责）：
+安装步骤（限mac和linux环境，windows盖不负责）：
 1.把.emacs文件移动到～
 2.修改~/.emacs.d/init-config.el中相应配置
 

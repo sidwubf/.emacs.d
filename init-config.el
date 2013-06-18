@@ -24,7 +24,7 @@
 (setq frame-title-format
       '("emacs@ " (buffer-file-name "%f "
                                     (dired-directory dired-directory "%b"))))
-(setq default-frame-alist '((height . 45) (width . 125)))
+(setq default-frame-alist '((height . 65) (width . 150)))
 (prefer-coding-system 'utf-8)
 (set-default-coding-systems 'utf-8)
 (global-linum-mode t)
@@ -42,3 +42,5 @@
 (display-time)
 
 ;(desktop-save-mode 1)
+
+(set-default-font "-apple-Monaco-medium-normal-normal-*-18-*-*-*-m-0-iso10646-1")

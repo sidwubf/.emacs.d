@@ -47,7 +47,7 @@
 
 (load-library "init-w3m")
 
-(load-library "init-weibo")
+;(load-library "init-weibo")
 
 (load-library "init-doc")
 
@@ -57,6 +57,6 @@
 
 (load-library "init-youdao")
 
-(load-library "init-skype")
+;(load-library "init-skype")
 
-(load-library "init-douban")
+;(load-library "init-douban")
