@@ -3,6 +3,7 @@
 安装步骤（限mac和linux环境，windows概不负责）：
 1.把.emacs文件移动到～
 2.修改~/.emacs.d/init-config.el中相应配置
+3.修改~/.emacs.d/init-erlang.el中相应配置
 
 其他信息请查看https://github.com/jensonwu/note/blob/master/emacs.nt
 
