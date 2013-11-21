@@ -15,6 +15,7 @@
 (load-library "init-css")
 (load-library "init-c")
 (load-library "init-markdown")
+(load-library "init-erlang")
 
 (load-library "init-color-theme")
 
