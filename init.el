@@ -8,14 +8,14 @@
 (load-library "init-whitespace")
 (load-library "init-config")
 
-(load-library "init-php")
+;(load-library "init-php")
 ;(load-library "init-python")
-(load-library "init-javascript")
-(load-library "init-espresso")
-(load-library "init-css")
-(load-library "init-c")
-(load-library "init-markdown")
-(load-library "init-erlang")
+;(load-library "init-javascript")
+;(load-library "init-espresso")
+;(load-library "init-css")
+;(load-library "init-c")
+;(load-library "init-markdown")
+;(load-library "init-erlang")
 
 (load-library "init-color-theme")
 
@@ -34,29 +34,29 @@
 
 ;(load-library "init-yasnippet")
 
-(load-library "init-sdcv")
+;(load-library "init-sdcv")
 
-(load-library "init-magit")
+;(load-library "init-magit")
 
 ;(load-library "init-helm")
 
 ;(load-library "init-elnode")
 
-(load-library "init-calfw")
+;(load-library "init-calfw")
 
-(load-library "init-mew")
+;(load-library "init-mew")
 
-(load-library "init-w3m")
+;(load-library "init-w3m")
 
 ;(load-library "init-weibo")
 
-(load-library "init-doc")
+;(load-library "init-doc")
 
 ;(load-library "init-qq")
 
 (load-library "init-etags")
 
-(load-library "init-youdao")
+;(load-library "init-youdao")
 
 ;(load-library "init-skype")
 
